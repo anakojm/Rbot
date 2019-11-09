@@ -9,11 +9,11 @@ const commands = {
 	"help": {
 		process: function (msg, suffix, embed) {
 			const list = ["```perl",
-			"!Rb/help #Sends this help message",
-			"!Rb/join #Join to your voice channel",
-			"!Rb/leave #Exit the voice channel",
-			"!Rb/play + radio name #select a radio",
-			"!Rb/list #list all radio```",
+			"Rb/help #Sends this help message",
+			"Rb/join #Join to your voice channel",
+			"Rb/leave #Exit the voice channel",
+			"Rb/play + radio name #select a radio",
+			"Rb/list #list all radio```",
 			"I'm **Rbot**, a radio bot. I'm developed by ankonymous, this bot is inspired by baba-radio"] 
 			embed.setDescription(list);
 			embed.setAuthor("Command list!", "https://cdn.discordapp.com/attachments/330739726321713153/451061091322298378/jajajaxdxdxd.png");
