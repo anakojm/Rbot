@@ -168,4 +168,5 @@ bot.on("ready", function() {
             });
         }
     }
-}), bot.login("process.TOKEN");
+}),
+    bot.login("process.TOKEN");
