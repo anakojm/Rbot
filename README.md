@@ -24,5 +24,5 @@
 6. Clone: `git clone https://github.com/anakojm/Rbot.git`
 7. Change directory: `cd Rbot`
 8. Install dependencies: `npm install`
-9. Put the token of your bot in `bot.login("process.TOKEN");` in index.js
+9. Replace `process.TOKEN` by your token in `bot.login("process.TOKEN");` in last line of index.js
 10. launch with `node index.js`
