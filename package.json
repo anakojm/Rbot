@@ -1,7 +1,7 @@
 {
-  "name": "bot",
+  "name": "radio-bot",
   "version": "1.0.0",
-  "description": "Radio bot",
+  "description": "A radio bot for discord",
   "repository": {     
      "type" : "git",
       "url" : "https://github.com/anakojm/Rbot.git" 
