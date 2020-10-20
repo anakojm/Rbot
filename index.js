@@ -5,7 +5,7 @@ console.log("[!] Starting bot...");
 const commands = {
     help: {
         process: function(e, t, r) {
-            r.setDescription([ "```perl", "Rb/help #Envoyer ce message", "Rb/leave #Quitter le salon vocal", "Rb/play + nomderadio #jouer une radio", "Rb/list #Lister toutes les radios```", "Je suis **Rbot**, un bot radio. Je suis développé par anakojm, vous pouvez trouver mon code source ici : https://github.com/anakojm/Rbot" ]), 
+            r.setDescription([ "```perl", "Rb/help #Envoyer ce message", "Rb/leave #Quitter le salon vocal", "Rb/play + nomderadio #jouer une radio", "Rb/list #Lister toutes les radios```", "Je suis **Rbot**, un bot radio. Je suis développé par anakojm, vous pouvez trouver mon code source ici : https://github.com/anakojm/Rbot et m'inviter avec ce lien: https://discord.com/oauth2/authorize?response_type=code&client_id=560179137499889687&scope=bot&permission=8&redirect_uri=https://github.com/anakojm/Rbot" ]), 
             r.setAuthor("Command list!", "https://cdn.discordapp.com/attachments/330739726321713153/451061091322298378/jajajaxdxdxd.png"), 
             r.setColor("#b92727"), e.author.send({
                 embed: r
@@ -771,12 +771,12 @@ msg.channel.send({ embed });
 });
 }
 else {
-				embed.setDescription("• Radio non disponible\n\n`[-]` Radios disponibles `avec la commande Rb/list`");
-				embed.setColor("#b92727");
-				return msg.channel.send({ embed });
-			}
-			}
-		},
+embed.setDescription("• Radio non disponible\n\n`[-]` Radios disponibles `avec la commande Rb/list`");
+embed.setColor("#b92727");
+return msg.channel.send({ embed });
+		}
+	}
+},
 	
 	
     list: {
