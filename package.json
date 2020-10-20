@@ -7,9 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "anakojm",
-  "license": "GPL",
+  "license": "GPL-3.0",
   "dependencies": {
     "discord.js": "^11.4.2",
     "opusscript": "0.0.6"
   }
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/anakojm/Rbot.git"
+}
 }
