@@ -23,6 +23,6 @@
 5. Invite your bot to your server with https://discordapi.com/permissions.html (client id is in general information of your application)
 6. Clone: `git clone https://github.com/anakojm/Rbot.git`
 7. Change directory: `cd Rbot`
-8. Init: `npm install`,`npm start` or `yarn install`,`yarn init`
+8. Init: `npm install`,or `yarn install`
 9. Put the token of your bot in `bot.login("process.TOKEN");` in index.js
 10. launch with `node index.js`
