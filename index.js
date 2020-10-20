@@ -5,7 +5,7 @@ console.log("[!] Starting bot...");
 const commands = {
     help: {
         process: function(e, t, r) {
-            r.setDescription([ "```perl", "Rb/help #Envoyer ce message", "Rb/leave #Quitter le salon vocal", "Rb/play + nomderadio #jouer une radio", "Rb/list #Lister toutes les radios```", "Je suis **Rbot**, un bot radio. Je suis développé par anakojm" ]), 
+            r.setDescription([ "```perl", "Rb/help #Envoyer ce message", "Rb/leave #Quitter le salon vocal", "Rb/play + nomderadio #jouer une radio", "Rb/list #Lister toutes les radios```", "Je suis **Rbot**, un bot radio. Je suis développé par anakojm, vous pouvez trouver mon code source ici : https://github.com/anakojm/Rbot" ]), 
             r.setAuthor("Command list!", "https://cdn.discordapp.com/attachments/330739726321713153/451061091322298378/jajajaxdxdxd.png"), 
             r.setColor("#b92727"), e.author.send({
                 embed: r
