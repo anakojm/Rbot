@@ -3,7 +3,7 @@
   <b>Rbot is a Discord Bot made using discord.js and node js, made to play radio stations.</b><br><br>
 
   <p>
-    <a href="https://discordapp.com/oauth2/authorize?client_id=586498125410336769&scope=bot&permissions=8&redirect_uri=https%3A%2F%2Fgithub.com%2Fanakojm" target="_blank"><img
+    <a href="https://discord.com/oauth2/authorize?response_type=code&client_id=560179137499889687&scope=bot&permission=8&redirect_uri=https://github.com/anakojm/Rbot" target="_blank"><img
     src="https://img.shields.io/badge/Invite-me%20to%20your%20Discord%20server-7289da.svg" alt "Invite Rbot"><img src="https://img.shields.io/github/license/anakojm/Rbot" alt="License"/></a>
   </p>
 </div>
