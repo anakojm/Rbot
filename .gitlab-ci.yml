@@ -16,5 +16,5 @@ test:
     stage: test
     script:
         - echo "testing"
-        - npm start
+        - node index.js
 
