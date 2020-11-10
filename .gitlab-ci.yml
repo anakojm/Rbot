@@ -12,6 +12,11 @@ build:
     script:
         - echo "building"
         - npm install
+
+    artifacts:
+        paths:
+            - node_modules/
+
 test:
     stage: test
     script:
