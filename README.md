@@ -26,3 +26,6 @@
 8. Install dependencies: `npm install`
 9. Replace `process.TOKEN` by your token in `bot.login("process.TOKEN");` in last line of index.js
 10. launch with `node index.js`
+
+[![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/anakojm/Rbot)
+[![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/anakojm/Rbot)
