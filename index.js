@@ -892,5 +892,4 @@ bot.on("ready", function() {
             }
         }
     }),
-    bot.login("NTYxNjkyNDcwOTQ2MDM3NzYw.XJ_64A.JhuIAD2Sg-fsadyx2pYtnL4mqgM");
-//bot.login("process.TOKEN");
+bot.login("process.TOKEN");
