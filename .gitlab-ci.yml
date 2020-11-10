@@ -5,9 +5,10 @@ stages:
 build:
     stage: build
     script:
+        - echo "building"
         - npm install
-        - npm start
 test:
     stage: test
     script:
-        - node index.js
+        - echo "testing"
+        - npm start
