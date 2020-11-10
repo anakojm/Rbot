@@ -7,9 +7,7 @@ image: node:latest
 # Only needed when using a docker container to run your tests in.
 # Check out: http://docs.gitlab.com/ee/ci/docker/using_docker_images.html#what-is-a-service
 services:
-  - mysql:latest
-  - redis:latest
-  - postgres:latest
+
   - npm:latest
 
 stages:
