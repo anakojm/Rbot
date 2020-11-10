@@ -8,6 +8,8 @@
   </p>
 </div>
 
+[![pipeline status](https://gitlab.com/anakojm/rbot/badges/master/pipeline.svg)](https://gitlab.com/anakojm/rbot/-/commits/master)
+
 ### Commands:
 - `Rb/play` - Join to your channel and play the music selectioned
 - `Rb/list` - List all radio avalaible (~75)
