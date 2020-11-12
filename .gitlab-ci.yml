@@ -5,7 +5,7 @@ image: node:latest
 
 stages:
     - build
-    - test
+ #   - test
 
 build:
     stage: build
@@ -17,9 +17,9 @@ build:
         paths:
             - node_modules/
 
-test:
-    stage: test
-    script:
-        - echo "testing"
-        - node index.js
+#test:
+#    stage: test
+#    script:
+#        - echo "testing"
+#        - node index.js
 
