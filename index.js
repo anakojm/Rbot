@@ -815,18 +815,8 @@ const commands = {
                         });
                     });
                 });
-            } else if (suffix.toLowerCase() == "beur fm") {
-                msg.member.voiceChannel.join().then(connection => {
-                    require('http').get("http://broadcast.infomaniak.ch/beurfm-high.mp3", (res) => {
-                        connection.playStream(res);
-                        embed.setColor("#b92727");
-                        embed.setDescription("Correctement joué beur fm");
-                        msg.channel.send({
-                            embed
-                        });
-                    });
-                });
-            } else if (suffix.toLowerCase() == "autoroute info nord") {
+            }
+            else if (suffix.toLowerCase() == "autoroute info nord") {
                 msg.member.voiceChannel.join().then(connection => {
                     require('http').get("http://media.autorouteinfo.fr:8000/direct_nord.mp3", (res) => {
                         connection.playStream(res);
