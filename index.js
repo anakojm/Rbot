@@ -1,6 +1,6 @@
 const Discord = require("discord.js"),
     bot = new Discord.Client(),
-    prefix = "Rb/";
+    //prefix = "Rb/";
 
 console.log("[!] Starting bot...");
 
