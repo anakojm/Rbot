@@ -8,7 +8,7 @@
   </p>
 </div>
 
-[![pipeline status](https://gitlab.com/anakojm/rbot/badges/master/pipeline.svg)](https://gitlab.com/anakojm/rbot/-/commits/master)
+[![pipeline status](https://gitlab.com/anakojm/rbot/badges/master/pipeline.svg)](https://gitlab.com/anakojm/rbot/-/commits/master) [![pipeline status](https://img.shields.io/discord/642785703264256011)](https://discord.gg/mJmjEU39sS) 
 
 ### Commands:
 - `Rb/play` - Join to your channel and play the music selectioned
