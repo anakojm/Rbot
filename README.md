@@ -11,10 +11,10 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4405/badge)](https://bestpractices.coreinfrastructure.org/projects/4405)[![pipeline status](https://gitlab.com/anakojm/rbot/badges/master/pipeline.svg)](https://gitlab.com/anakojm/rbot/-/commits/master) [![pipeline status](https://img.shields.io/discord/642785703264256011)](https://discord.gg/mJmjEU39sS) 
 
 ### Commands:
-- `Rb/play` - Join to your channel and play the music selectioned
+- `Rb/play` - Join your channel and play the music selectioned
 - `Rb/list` - List all radio avalaible (~75)
-- `Rb/help` - Display help message
-- `Rb/leave` - Leaves the voice channel
+- `Rb/help` - Display an help message
+- `Rb/leave` - Leave the voice channel
 - `Rb/invite` - Generate an invitation link you can use to invite the bot to your server
 
 ### How to have your version of Rbot:
@@ -26,8 +26,8 @@
 6. Clone: `git clone https://github.com/anakojm/Rbot.git`
 7. Change directory: `cd Rbot`
 8. Install dependencies: `npm install`
-9. Replace `process.TOKEN` by your token in `bot.login("process.TOKEN");` in last line of index.js
-10. launch with `node index.js`
+9. Replace `process.TOKEN` by your token in `bot.login("process.TOKEN");` at the last line of index.js
+10. Start the bot  with `node index.js`
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/anakojm/Rbot)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/anakojm/Rbot)
