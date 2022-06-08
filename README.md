@@ -4,7 +4,7 @@
 
   <p>
     <a href="https://discord.com/oauth2/authorize?response_type=code&client_id=560179137499889687&scope=bot&permission=8&redirect_uri=https://github.com/anakojm/Rbot" target="_blank"><img
-    src="https://img.shields.io/badge/Invite-me%20to%20your%20Discord%20server-7289da.svg" alt "Invite Rbot"><img src="https://img.shields.io/github/license/anakojm/Rbot" alt="License"/></a>
+    src="https://img.shields.io/badge/Invite-me%20to%20your%20Discord%20server-7289da.svg" alt "Invite Rbot"><img src="https://img.shields.io/github/license/anakojm/Rbot" alt="GPL-3.0 License"/></a>
   </p>
 </div>
 
