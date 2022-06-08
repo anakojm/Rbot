@@ -27,7 +27,7 @@
 7. Change directory: `cd Rbot`
 8. Install dependencies: `npm install`
 9. Replace `process.TOKEN` by your token in `bot.login("process.TOKEN");` at the last line of index.js
-10. Start the bot  with `node index.js`
+10. Start the bot with `node index.js`
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/anakojm/Rbot)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/anakojm/Rbot)
